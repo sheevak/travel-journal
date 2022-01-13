@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "inter", sans-serif;
+}
+
+nav {
+    background: #F55A5A;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > img {
+    margin-right: 7px;
+    height: 24px;
+}
+
+.nav--header {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 14.4608px;
+    letter-spacing: -0.075em;
+}
+
