@@ -2,13 +2,12 @@ import React from "react"
 import Pin from "../Images/Pin.png"
 
 export default function Destination(props) {
-
     return (
         <article>
-            <img src={require("../Images/" + props.image)}/>
+            <img src={require("../Images/" + props.image)} alt={"A photograph of " + props.title}/>
             <div className="destination--container">
                 <div className="destination--info">
-                    <img className="pin" src={Pin}/>
+                    <img className="pin" src={Pin} alt="A location pin"/>
                     <h5 className="destination--location">{props.location}</h5>
                     <a href={props.googleMapsUrl}>View on Google Maps</a>
                 </div>
