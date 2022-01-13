@@ -8,6 +8,7 @@ nav {
     background: #F55A5A;
     display: flex;
     padding: 16px;
+    margin-bottom: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -24,3 +25,61 @@ nav > img {
     letter-spacing: -0.075em;
 }
 
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    padding: 36px 40px 0 40px;
+    display: flex;
+    max-width: 800px;
+}
+
+article > img {
+    margin-right: 19px;
+}
+
+.destination--container {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.destination--info {
+    display: flex;
+}
+
+.pin {
+    height: 10px;
+}
+
+.destination--location {
+    font-weight: normal;
+    font-size: 10.24px;
+    letter-spacing: 0.17em;
+    margin-left: 5px;
+}
+
+.destination--info > a {
+    color: #918E9B;
+    font-size: 10.24px;
+    text-decoration-line: underline;
+    margin-left: 12px;
+}
+
+.destination--title {
+    margin-top: 7px;
+    font-size: 25px;
+}
+
+.destination--date {
+    margin-top: 14px;
+    font-size: 10.24px;
+}
+
+.destination--desc {
+    margin-top: 9px;
+    font-size: 10.24px;
+}
